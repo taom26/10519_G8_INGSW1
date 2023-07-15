@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bp&TEC - Inicio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/d59ee4c5e6.js" crossorigin="anonymous"></script>
+  <script>
+    function handleClick(event) {
+      if (event.target.tagName === 'IMG') {
+        alert('Error: Por favor, utiliza los botones de cambio para navegar por las imágenes.');
+      }
+    }
+  </script>
+</head>
+<body onclick="handleClick(event)"></body>
+<body>
+  <header>
+    <h1>Papelería bp&TEC</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="promociones.html">Promociones</a></li>
+        <li><a href="buscar.html">Buscar</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="atencion_cliente.html">Atención al Cliente</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="slider">
+      <input type="radio" name="slider" id="slide1" checked>
+      <input type="radio" name="slider" id="slide2">
+      <input type="radio" name="slider" id="slide3">
+      <input type="radio" name="slider" id="slide4">
+      <div id="slides">
+        <div id="overflow">
+          <div class="inner">
+            <div class="slide slide_1">
+              <div class="slide-content">
+                <img src="assets/1.jfif" alt="Slide 1">
+              </div>
+            </div>
+            <div class="slide slide_2">
+              <div class="slide-content">
+                <img src="assets/2.jfif" alt="Slide 2">
+              </div>
+            </div>
+            <div class="slide slide_3">
+              <div class="slide-content">
+                <img src="assets/3.jfif" alt="Slide 3">
+              </div>
+            </div>
+            <div class="slide slide_4">
+              <div class="slide-content">
+                <img src="https://i.ytimg.com/vi/JEki2hAUhCI/maxresdefault.jpg" alt="Slide 4">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="controls">
+         <label for="slide1"></label>
+         <label for="slide2"></label>
+         <label for="slide3"></label>
+         <label for="slide4"></label>
+      </div>
+      <div id="bullets">
+         <label for="slide1"></label>
+         <label for="slide2"></label>
+         <label for="slide3"></label>
+         <label for="slide4"></label>
+      </div>
+   </div>
+
+   <div id="products">
+    <div class="product">
+      <img src="https://comsucre.com.ec/wp-content/uploads/2022/07/JF.BO_.607.png" alt="Producto 1">
+      <h3>Bolígrafos de colores "Jeff"</h3>
+      <p>Precio: $3.75</p>
+    </div>
+    <div class="product">
+      <img src="https://comsucre.com.ec/wp-content/uploads/2022/09/cc.c.fx570ex-caja-y-cuerpo.png" alt="Producto 2">
+      <h3>Calculadora Científica Casio</h3>
+      <p>Precio: $18.75</p>
+    </div>
+    <div class="product">
+      <img src="https://www.norma.com.ec/wp-content/uploads/2022/01/4-2.png" alt="Producto 3">
+      <h3>Pinturas de colores "Norma" 36 colores</h3>
+      <p>Precio: $8.00</p>
+    </div>
+    <div class="product">
+      <img src="https://www.surtimovil.com/wp-content/uploads/2020/08/OU-Borrador-de-Queso-PZ-60-Caja-de-60-unidades-Pelikan-1.png" alt="Producto 4">
+      <h3>Borrador de queso "Pelikan PZ-60"</h3>
+      <p>Precio: $0.25</p>
+    </div>
+    <div class="product">
+      <img src="https://1.bp.blogspot.com/-b-0Bmt5WkBk/Xfr6KzxbcTI/AAAAAAAAAyg/di36SJ-pqWQSOM3AwWC5gXDIgPtEziqnwCNcBGAsYHQ/s1600/lapiz-delineador-ojos-seytu-1.jpg" alt="Producto 5">
+      <h3>Delineador de ojos</h3>
+      <p>Precio: $1.25</p>
+    </div>
+    <div class="product">
+      <img src="https://cyzone.cyzone.com/wp-content/uploads/2022/02/amar-labiales-mate.jpg" alt="Producto 5">
+      <h3>Por confirmar</h3>
+      <p>Precio: $1.50</p>
+    </div>
+    <div class="product">
+      <img src="https://http2.mlstatic.com/D_NQ_NP_882660-MLV47012849984_082021-W.jpg" alt="Producto 5">
+      <h3>Diademas</h3>
+      <p>Precio: $0.75</p>
+    </div>
+    <div class="product">
+      <img src="https://divinaimportadora.com/wp-content/uploads/2022/09/WhatsApp-Image-2022-09-10-at-4.34.42-PM.jpeg" alt="Producto 5">
+      <h3>Esmaltes "Vogue"</h3>
+      <p>Precio: $2.75</p>
+    </div>
+    <!-- Repite este bloque para cada producto -->
+  </div>
+
+  
+  
+  </main>
+  <footer>
+    <div class="social-media">
+      <a href="https://twitter.com/taom26" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-facebook fa-2xl"></i>
+      </a>
+      <a href="https://twitter.com/taom26" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram fa-2xl"></i>
+      </a>
+      <a href="https://twitter.com/taom26" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-twitter fa-2xl"></i>
+      </a>
+      <a href="https://twitter.com/taom26" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp fa-2xl"></i>
+      </a>
+    </div>
+    <p>Todos los derechos reservados &copy; Papelería bp&TEC</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
